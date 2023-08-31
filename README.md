@@ -4,6 +4,9 @@ Description This is the simple code that uses solidity programming. Solidity, a 
 
 Getting Start To get started with this programming type, you should first open up the solidity compiler that is Remix online IDE: https://remix.ethereum.org/. Now, when the IDE opens you first have to create a file in which you can write the code, so first click on the new file which is given at the left-hand sidebar. Name the file of your wish and save the file with an extension .sol. For example, firstcode.sol. Now, write the given code in your file
 
+
+# CODE
+
 pragma solidity 0.8.18;
 
 contract MyCustomToken {
@@ -29,7 +32,7 @@ contract MyCustomToken {
         balances[_address] -= _amount;
     }
 }
-EXPLAINATION:
+# EXPLAINATION:
 The provided Solidity smart contract represents a custom token named "MyCustomToken" and is written using Solidity version 0.8.18. The contract includes functionality for minting and burning tokens, and it utilizes a mapping to keep track of token balances for different Ethereum addresses.
 
 The contract starts with a pragma directive specifying the Solidity version used for compiling the contract. This ensures that the contract is compatible with the specified version.
